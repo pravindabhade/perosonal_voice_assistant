@@ -1,0 +1,77 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+ENV/
+
+# Environment Variables
+
+.env
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Logs
+
+*.log
+
+# Audio Files
+
+recording.wav
+*.mp3
+*.wav
+
+# Memory Files
+
+memory.json
+data/memory.json
+
+# Ollama / AI Generated Files
+
+outputs/
+generated/
+
+# RAG Vector Database
+
+db/
+chroma_db/
+
+# PDF Uploads (optional)
+
+pdfs/
+
+# Build Files
+
+build/
+dist/
+*.egg-info/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+
+*.tmp
+*.bak
+*.cache
+
+# Streamlit
+
+.streamlit/secrets.toml
